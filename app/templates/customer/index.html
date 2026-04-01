@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table Menu</title>
+  <link rel="stylesheet" href="/static/css/customer.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to LiteHotel</h1>
+    <p>Order directly from your table.</p>
+  </header>
+  <section id="menu"></section>
+  <section>
+    <button id="placeOrder">Place Order</button>
+    <pre id="result"></pre>
+  </section>
+  <script>window.TABLE_TOKEN = "{{ table_token }}";</script>
+  <script src="/static/js/customer.js"></script>
+</body>
+</html>
