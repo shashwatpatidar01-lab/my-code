@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LiteHotel HMS - Admin</title>
+  <link rel="stylesheet" href="/static/css/admin.css" />
+</head>
+<body>
+  <div class="topbar">LiteHotel HMS <span id="adminMeta">Guest</span><button id="logoutBtn">Logout</button></div>
+  <div class="container">
+    <aside class="sidebar">
+      <button data-view="dashboard">Dashboard</button>
+      <button data-view="tables">Tables</button>
+      <button data-view="orders">Orders</button>
+      <button data-view="menu">Menu</button>
+      <button data-view="inventory">Inventory</button>
+      <button data-view="billing">Billing</button>
+      <button data-view="analytics">Analytics</button>
+      <button data-view="settings">Settings</button>
+    </aside>
+    <main id="content"></main>
+  </div>
+  <script src="/static/js/admin.js"></script>
+</body>
+</html>
